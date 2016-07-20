@@ -1,0 +1,21 @@
+{
+  "name": "wap_learn",
+  "version": "1.0.0",
+  "description": "wap",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "wap",
+    "node"
+  ],
+  "author": "yuzhichao",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "md5": "^2.1.0",
+    "mysql": "^2.11.1"
+  }
+}
