@@ -34,7 +34,7 @@ WAP.prototype.configureExpress = function(connection) {
       app.use(bodyParser.urlencoded({ extended: true }));
       app.use(bodyParser.json());
       var router = express.Router();
-      app.use('/api', router);
+      app.use('/api', router);      
       var rest_router = new wapApi(router,connection,md5);
       self.startServer();
 }
